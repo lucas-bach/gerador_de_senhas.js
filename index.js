@@ -15,3 +15,5 @@ function gerarSenha(comprimento){
     return senha;
 
 }
+
+console.log(gerarSenha(12));
