@@ -6,4 +6,12 @@ function gerarSenha(comprimento){
     
     let senha = ''
 
+    for(let i = 0; i < comprimento; i++){
+        let randomIndex = Math.floor
+        (Math.random() * caracteres.length)
+        senha += caracteres[randomIndex]
+    }
+
+    return senha;
+
 }
