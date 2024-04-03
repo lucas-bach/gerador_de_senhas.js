@@ -17,3 +17,5 @@ function gerarSenha(comprimento){
 }
 
 console.log(gerarSenha(12));
+
+
